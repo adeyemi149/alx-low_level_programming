@@ -6,13 +6,13 @@
  */
 int main(void) 
 {
-	char letter = 'a';
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-	while (letter < 'z') 
+	for (i = 0; i < 26; i++)
 	{
-		putchar("%d", n);
-		letter++;
+		putchar(alp[i]);
 	}
-	putchar("\n");
+	putchar('\n');
 	return 0;
 }
