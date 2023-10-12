@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 
-/*
+/**
  *main - prints the number from 1 - 100 followed by new line
  *nut multiple of 3 prints Fizz, multiple of 5 prints Buzz, 
  *multiple of 3 and 5 prints FizzBuzz
- *Returns : 0
+ *Returns: 0
  */
 
 int main(void)
