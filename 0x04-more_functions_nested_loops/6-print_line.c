@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include "main.h"
 
-/*
+/**
  *print_line - Draw a straight line
  *
  * @n - number of time number should be printed
  *
  * return - void
- *
+ */
 
 void print_line(int n)
 {
